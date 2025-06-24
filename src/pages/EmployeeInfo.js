@@ -120,7 +120,7 @@ function EmployeeInfoPage() {
           <EmployeeCard key={emp.id} employee={emp} onDelete={() => handleDelete(emp.id)} />
         ))}
         <div className="add-employee-card">
-          <button className="add-employee-btn" onClick={() => setShowForm(true)}>+ Add an Employee</button>
+          <button className="add-employee-btn" onClick={() => setShowForm(true)}>+ Add another Employee</button>
         </div>
       </div>
       {/* Modal for Add Employee Form */}
